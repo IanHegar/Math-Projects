@@ -1,2 +1,2 @@
-# Projetos-de-Matem-tica
-Funções de média, moda e mediana em Python!
+# Projetos-de-Matemática
+Execitando matemática em geral, através da Linguagem Python
