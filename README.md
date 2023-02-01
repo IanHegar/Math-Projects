@@ -1,2 +1,3 @@
-# Projetos-de-Matemática
-Execitando matemática em geral, através da Linguagem Python
+# Hey! This is my first repository
+
+I put some of my learning exercises here 😁
