@@ -1,4 +1,4 @@
-# Factorial display
+# Factorial generator
 num = int(input("Enter your number: "))
 f = 1
 
