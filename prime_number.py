@@ -1,8 +1,7 @@
-# Contador e entrada do número do usuário
 count = 0
 num = int(input("\nEnter a number: "))
 
-# Verificação do número
+# Number verification
 print()
 for n in range(1, num + 1):
     if num % n == 0:
@@ -10,7 +9,7 @@ for n in range(1, num + 1):
         count += 1
     else: print(n, end=" ")
 
-# Resultado
+# Result
 print()
 print(f"\nThe number {num} was divisible {count} times")
 
