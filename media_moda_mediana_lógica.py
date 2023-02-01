@@ -1,32 +1,32 @@
-def mediana(lista):
-    lista.sort()
+def median(list):
+    list.sort()
 
-    if len(lista) % 2 != 0:
-        mediana = (len(lista) // 2)
-        return lista[mediana]
+    if len(list) % 2 != 0:
+        median = (len(list) // 2)
+        return list[median]
     
     else:
-        meio = len(lista) // 2
-        mediana = (lista[meio] + lista[meio - 1]) / 2
-        return mediana
+        middle = len(list) // 2
+        median = (list[middle] + list[middle - 1]) / 2
+        return median
 
 
-def moda(lista):
+def mode(list):
     cont = 0
-    quantidade = 0
-    moda = 0
+    amount = 0
+    mode = 0
 
-    for n in lista:
-        num = lista.count(n)
+    for n in list:
+        num = list.count(n)
 
         if cont == 0:
-            moda = n
-            quantidade = num
+            mode = n
+            amount = num
             cont += 1
         else: 
-            if num > quantidade: moda = n
+            if num > amount: mode = n
     
-    return moda
+    return mode
 
 
-def media(lista): return sum(lista) / len(lista)
+def mean(list): return sum(list) / len(list)
