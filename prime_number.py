@@ -15,4 +15,4 @@ print()
 print(f"\nThe number {num} was divisible {count} times")
 
 if count > 2: print("And that's why he's NOT PRIME NUMBER")
-else: print("And that's why he's PRIME NUMBER\n") 
+else: print("And that's why he's PRIME NUMBER\n")
