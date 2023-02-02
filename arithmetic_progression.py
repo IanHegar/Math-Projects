@@ -12,5 +12,5 @@ while True:
         firstTerm += ratio
         count += 1
     else: 
-        print(f"{firstTerm} → End")
+        print(f"{firstTerm} → ...")
         break
